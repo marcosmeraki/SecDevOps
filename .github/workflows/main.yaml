@@ -21,7 +21,7 @@ jobs:
         run: echo "Build"
 
        - name: Test
-        run: echo "Test"
+        run: echo "test"
 
         - name: Deploy
         run: echo "Deploy"
