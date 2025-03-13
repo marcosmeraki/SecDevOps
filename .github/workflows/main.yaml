@@ -3,7 +3,7 @@
 name: CI
 
 on:
-push:
+  push:
     branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
@@ -20,9 +20,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: Build
         run: echo "Build"
-
+        
        - name: Test
-         run: echo  "Test"
+         run: echo "Test"
 
-       - name: Deploy
-         run: echo "Deploy"
+         - name: Deploy
+           run: echo "Deploy"
