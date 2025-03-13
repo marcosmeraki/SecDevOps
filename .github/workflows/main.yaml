@@ -16,7 +16,6 @@ jobs:
 
     steps:
      
-
       # Runs a single command using the runners shell
       - name: Build
         run: echo "Build"
@@ -26,5 +25,4 @@ jobs:
 
          - name: Deploy
         run: echo "Deploy"
-
      
