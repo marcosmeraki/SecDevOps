@@ -14,19 +14,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps: 
+  steps: 
      
       # Runs a single command using the runners shell
       - name: Build
         run: echo "Build"
-  test:  
+   test:  
     runs-on: ubuntu-latest
     needs: build
 
-    steps:
+   steps:
        - name: Test
          run: echo "Test"
-     deploy:
+   deploy:
        runs-on: ubuntu-latest
        needs: build
        
